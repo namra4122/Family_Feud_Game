@@ -215,6 +215,8 @@ var app = {
         app.getBoardScore()
     },
     wrongAnswer:()=>{
+        var audio = new Audio("/public/audio/buzzer.mp3");
+        audio.play();
         app.wrong++
         console.log("wrong: "+ app.wrong )
         var wrong = app.board.find(".wrongBoard")
