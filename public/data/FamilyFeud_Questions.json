@@ -1,5 +1,8 @@
 {
-    "1. Tell me something specific you have lost more than once":[["Keys","63"],["Money","7"],["Weight","5"],["Contact Lens","4"],["Eyeglasses","4"],["Wallet","3"],["Earring","2"]],
-    "2. Name a toy you always see in pictures of Santa's Workshop":[["Doll","39"],["Stuffed Animal","13"],["Train","11"],["Rocking Horse","9"],["Toy Soldier","9"],["Drum","4"],["Ball","3"],["Wagon","3"]],
-    "8. Name a kind of food that gets stuck between your teeth":[["Corn","37"],["Meat","23"],["Popcorn","22"],["Caramel","6"],["Nuts","3"],["Peanut Butter","3"],["Taffy","2"]]
+    "1. What might a director shout on a film set?":[["Action", "40"], ["Take", "25"], ["Cut", "19"], ["Lights", "9"], ["Camera", "4"], ["Break", "2"], ["Silence", "1"]],
+    "2. Name a profession you shouldn't pursue if you fear your parents' judgment.":[["Standup Comedian", "20"], ["Gamer", "19"], ["Mentalist", "15"], ["Dubbing Artist", "11"], ["Dancer", "9"], ["Modelling", "8"], ["Actor", "7"], ["Instagram Influencer", "6"], ["Content Writer", "3"], ["Fitness Expert", "2"]],
+    "3. What's something a man hopes doesn't occur during a gaming session?":[["Full Bladder", "36"], ["Video Call from GF", "22"], ["Ping Issue", "15"], ["FBI Open Up", "11"], ["Friends calling last minute", "8"], ["Joystick Dysfunction", "5"], ["Snacks running out", "3"]],
+    "4. Identify a location typically filled with unwilling attendees.":[["Cemetery", "41"], ["Jail/Prison", "20"], ["School/College", "17"], ["Fridge", "9"], ["Hospital", "7"], ["Public Washroom", "4"]],
+    "5. What might you learn magic tricks for, specifically to make 'who' disappear?":[["Ex", "30"], ["Talkative Roommate", "25"], ["Topper Friend", "15"], ["Toxic Lead in Club", "10"], ["Neighbour Aunty", "9"], ["Sharma Ji Ka Ladka", "8"], ["Boss/Professor", "3"]],
+    "6. Which cartoon character evokes a sense of nostalgia for you?":[["Tom & Jerry", "30"], ["Chota Bheem", "16"], ["Shin Chan", "15"], ["Doraemon", "10"], ["Pokemon", "9"], ["Oswald", "8"], ["Power Rangers", "5"], ["Noddy", "4"], ["Oggy and the Cockroaches", "2"], ["Mickey Mouse", "1"]]
 }

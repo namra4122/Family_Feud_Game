@@ -191,7 +191,8 @@ var app = {
         });
     },
     changeQuestion: () => {
-        var chg_ques = new Audio("/public/audio/next_Ques.mp3");
+        var chg_ques = new Audio("/public/audio/nextQuestion.mp3");
+        chg_ques.playbackRate = 1.5;
         chg_ques.play();
         app.wrong = 0;
         app.currentQ++;
