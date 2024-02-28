@@ -163,6 +163,8 @@ var app = {
         });
     },
     awardPoints: (num) => {
+        var award_Audio = new Audio("/public/audio/awardTeam.mp3");
+        award_Audio.play();
         var boardScore = app.board.find('#boardScore');
         var currentScore = {
             var: parseInt(boardScore.html())
@@ -205,6 +207,7 @@ var app = {
     },
     flipCard: (n) => {
         var flip_audio = new Audio("/public/audio/winning.mp3");
+        flip_audio.playbackRate = 2;
         flip_audio.play();
         console.log("card");
         console.log(n);
