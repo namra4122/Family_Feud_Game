@@ -189,6 +189,9 @@ var app = {
         });
     },
     changeQuestion: () => {
+        var chg_ques = new Audio("/public/audio/next_Ques.mp3");
+        chg_ques.play();
+        app.wrong = 0;
         app.currentQ++;
         app.makeQuestion(app.currentQ);
     },
@@ -201,6 +204,8 @@ var app = {
         });
     },
     flipCard: (n) => {
+        var flip_audio = new Audio("/public/audio/winning.mp3");
+        flip_audio.play();
         console.log("card");
         console.log(n);
         var card = $('[data-id="' + n + '"]');
@@ -215,8 +220,8 @@ var app = {
         app.getBoardScore()
     },
     wrongAnswer:()=>{
-        var audio = new Audio("/public/audio/buzzer.mp3");
-        audio.play();
+        var wrong_audio = new Audio("/public/audio/buzzer.mp3");
+        wrong_audio.play();
         app.wrong++
         console.log("wrong: "+ app.wrong )
         var wrong = app.board.find(".wrongBoard")
